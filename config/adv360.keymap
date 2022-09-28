@@ -60,7 +60,7 @@
 &kp LEFT_META     &kp LEFT_CONTROL
 
 /* Right Half - Thumb Cluster First Row - 2 keys */
-&kp RIGHT_CTRL  &kp RIGHT_META
+&kp RIGHT_CONTROL  &kp RIGHT_META
 
 /* Right Half - H Row - 7 keys */
 &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
