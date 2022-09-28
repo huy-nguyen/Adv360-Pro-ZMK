@@ -41,16 +41,66 @@
 
         default_layer {
             bindings = <
-/* Left half - numbers row - 7 keys */
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4            &kp N5                   &tog 1
+/* Left Half - Numbers Row - 7 keys */
+&kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4            &kp N5                   &tog 1
 
-/* Right half - numbers row - 7 keys */
- &mo 3       &kp N6     &kp N7     &kp N8     &kp N9          &kp N0  &kp MINUS
+/* Right Half - Numbers Row - 7 keys */
+&mo 3       &kp N6     &kp N7     &kp N8     &kp N9          &kp N0  &kp MINUS
 
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R             &kp T                    &none        &none        &kp Y      &kp U      &kp I      &kp O           &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F             &kp G                    &none      &kp LMETA     &kp LALT                        &kp RCTRL  &kp RIGHT_META    &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V             &kp B                    &none          &none  &kp LEFT_CONTROL      &none      &none  &kp RIGHT_ALT           &none      &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT  &kp BACKSPACE  &kp DELETE  &kp PAGE_DOWN    &kp PG_DN  &kp ENTER  &kp SPACE     &kp UP        &kp DOWN   &kp LBKT  &kp RBKT   &mo 2
+/* Left Half - Q Row - 7 keys */
+&kp TAB      &kp Q     &kp W     &kp E      &kp R             &kp T                    &none
+
+/* Right Half - Y Row - 7 keys */
+&none        &kp Y      &kp U      &kp I      &kp O           &kp P   &kp BSLH
+
+/* Left Half - A Row - 7 keys */
+&kp ESC      &kp A     &kp S     &kp D      &kp F             &kp G                    &none
+
+/* Left Half - Thumb Cluster First Row - 2 keys */
+&kp LEFT_META     &kp LEFT_CONTROL
+
+/* Right Half - Thumb Cluster First Row - 2 keys */
+&kp RIGHT_CTRL  &kp RIGHT_META
+
+/* Right Half - H Row - 7 keys */
+&none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+
+/* Left Half - Z Row - 6 keys */
+&kp LSHFT      &kp Z     &kp X     &kp C      &kp V             &kp B
+
+/* Left Half - Blanks - 2 keys */
+&none          &none
+
+/* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys */
+&kp LEFT_ALT
+
+/* Left Half - Blanks - 1 keys */
+&none
+
+/* Right Half - Blanks - 1 keys */
+&none
+
+/* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys */
+&kp RIGHT_ALT
+
+/* Right Half - Blanks - 2 keys */
+&none      &none
+
+/* Right Half - N Row - 6 keys */
+&kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+
+
+/* Left Half - Last Row - 5 keys */
+&mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT
+
+/* Left Half - Thumb Cluster Last Row - 3 keys */
+&kp BACKSPACE  &kp DELETE  &kp END
+
+/* Right Half - Thumb Cluster Last Row - 3 keys */
+&kp PG_DN  &kp ENTER  &kp SPACE
+
+/* Right Half - Last Row - 5 keys */
+&kp UP        &kp DOWN   &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
