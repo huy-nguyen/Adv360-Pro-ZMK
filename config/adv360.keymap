@@ -116,11 +116,66 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2                 &kp F3                  &kp F4                  &kp F5                  &kp F6                  &tog 1   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans                 &trans                  &kp HYPER(E)   &kp HYPER(R)   &kp HYPER(T)            &none   &none  &kp HYPER(Y)  &trans  &trans   &trans   &trans   &trans
- &trans  &kp HYPER(A)  &kp HYPER(S)   &kp HYPER(D)   &kp HYPER(F)  &kp HYPER(G)         &none  &trans  &trans                   &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp HYPER(Z)  &trans                  &kp HYPER(C)   &trans                  &kp HYPER(B)            &none   &none  &trans   &none   &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans                 &trans                  &trans                  &trans                  &trans                  &trans   &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
+/* Left Half - Numbers Row - 7 keys */
+&kp F1  &kp F2                 &kp F3                  &kp F4                  &kp F5                  &kp F6                  &tog 1
+
+/* Right Half - Numbers Row - 7 keys */
+&mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+
+/* Left Half - Q Row - 7 keys */
+ &trans  &trans                 &trans                  &kp HYPER(E)   &kp HYPER(R)   &kp HYPER(T)            &none
+
+/* Right Half - Y Row - 7 keys */
+&none  &kp HYPER(Y)  &trans  &trans   &trans   &trans   &trans
+
+/* Left Half - A Row - 7 keys */
+ &trans  &kp HYPER(A)  &kp HYPER(S)   &kp HYPER(D)   &kp HYPER(F)  &kp HYPER(G)         &none
+
+/* Left Half - Thumb Cluster First Row - 2 keys */
+ &trans  &trans
+
+/* Right Half - Thumb Cluster First Row - 2 keys */
+ &trans   &trans
+
+/* Right Half - H Row - 7 keys */
+
+ &none  &trans  &trans  &trans  &trans  &trans  &trans
+
+/* Left Half - Z Row - 6 keys */
+ &trans  &kp HYPER(Z)  &trans                  &kp HYPER(C)   &trans                  &kp HYPER(B)
+
+/* Left Half - Blanks - 2 keys */
+ &none   &none
+
+/* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys */
+ &kp HOME
+
+/* Left Half - Blanks - 1 keys */
+ &none
+
+/* Right Half - Blanks - 1 keys */
+ &none
+
+/* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys */
+ &kp PAGE_UP
+
+/* Right Half - Blanks - 2 keys */
+ &none    &none
+
+/* Right Half - N Row - 6 keys */
+ &trans  &trans  &trans  &trans  &trans  &trans
+
+/* Left Half - Last Row - 5 keys */
+ &trans  &trans                 &trans                  &trans                  &trans
+
+/* Left Half - Thumb Cluster Last Row - 3 keys */
+ &trans                  &trans   &kp END
+
+/* Right Half - Thumb Cluster Last Row - 3 keys */
+ &kp PAGE_DOWN  &trans  &trans
+
+/* Right Half - Last Row - 5 keys */
+ &trans   &trans   &trans  &trans  &trans
             >;
         };
 
