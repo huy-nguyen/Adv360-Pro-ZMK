@@ -139,7 +139,7 @@
 
 /* Right Half - H Row - 7 keys */
 
- &none  &trans  &trans  &trans  &trans  &trans  &trans
+ &none  &kp HYPER(H)  &kp HYPER(J)  &kp HYPER(K)  &kp HYPER(L)  &trans  &trans
 
 /* Left Half - Z Row - 6 keys */
  &trans  &kp HYPER(Z)  &trans                  &kp HYPER(C)   &trans                  &kp HYPER(B)
