@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define HYPER(key) LS(LC(LA(LG(key))))
+
 / {
     behaviors {
       #include "macros.dtsi"
@@ -31,16 +33,16 @@
 &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
 
 /* Left Half - Q Row - 7 keys */
-&kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none
+&kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T   &kp HYPER(LEFT_BRACKET)
 
 /* Right Half - Y Row - 7 keys */
-&none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
+&kp HYPER(EQUAL)  &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
 
 /* Left Half - A Row - 7 keys */
-&kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none
+&kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G &kp HYPER(RIGHT_BRACKET)
 
 /* Left Half - Thumb Cluster First Row - 2 keys */
-&kp LCTRL &kp LALT
+&kp LEFT_META     &kp LEFT_CONTROL
 
 /* Left Half - blank (1 key) */
 &none
@@ -49,10 +51,10 @@
 &none
 
 /* Right Half - Thumb Cluster First Row - 2 keys */
-&kp LGUI  &kp RCTRL
+&kp RIGHT_CONTROL  &kp RIGHT_META
 
 /* Right Half - H Row - 7 keys */
-&none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+&kp HYPER(MINUS)  &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
 
 /* Left Half - Z Row - 6 keys */
 &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B
@@ -61,7 +63,7 @@
 &none    &none
 
 /* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys */
-&kp HOME
+&kp LEFT_ALT
 
 /* Left Half - Blanks - 1 keys */
 &none
@@ -70,7 +72,7 @@
 &none
 
 /* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys */
-&kp PG_UP
+&kp RIGHT_ALT
 
 /* Right Half - Blanks - 2 keys */
 &none     &none
@@ -82,10 +84,10 @@
 &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT
 
 /* Left Half - Thumb Cluster Last Row - 3 keys */
-&kp BSPC &kp DEL   &kp END
+&kp BACKSPACE  &kp DELETE  &kp HYPER(GRAVE)
 
 /* Right Half - Thumb Cluster Last Row - 3 keys */
-&kp PG_DN &kp ENTER &kp SPACE
+&kp HYPER(BACKSLASH)  &kp ENTER  &kp SPACE
 
 /* Right Half - Last Row - 5 keys */
 &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
@@ -109,13 +111,14 @@
 &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
 
 /* Left Half - Q Row - 7 keys */
-&trans &trans &trans &trans &trans &trans  &none
+ &trans  &trans &trans &kp HYPER(E) &kp HYPER(R)   &kp HYPER(T) &none
+
 
 /* Right Half - Y Row - 7 keys */
-&none &trans &trans &trans &trans  &trans  &trans
+&none  &kp HYPER(Y)  &trans  &trans   &trans   &trans   &trans
 
 /* Left Half - A Row - 7 keys */
-&trans &trans &trans &trans &trans &trans  &none
+&trans  &kp HYPER(A)  &kp HYPER(S)   &kp HYPER(D)   &kp HYPER(F)  &kp HYPER(G)         &none
 
 /* Left Half - Thumb Cluster First Row - 2 keys */
 &trans &trans
@@ -130,15 +133,16 @@
 &trans &trans
 
 /* Right Half - H Row - 7 keys */
-&none &trans &trans &trans &trans  &trans  &trans
+&none  &kp HYPER(H)  &kp HYPER(J)  &kp HYPER(K)  &kp HYPER(L)  &trans  &trans
+
 /* Left Half - Z Row - 6 keys */
-&trans &trans &trans &trans &trans &trans
+&trans  &kp HYPER(Z)  &trans &kp HYPER(C) &trans &kp HYPER(B)
 
 /* Left Half - Blanks - 2 keys */
 &none  &none
 
 /* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys */
-&trans
+&kp HOME
 
 /* Left Half - Blanks - 1 keys */
 &none
@@ -147,7 +151,7 @@
 &none
 
 /* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys */
-&trans
+&kp PAGE_UP
 
 /* Right Half - Blanks - 2 keys */
 &none  &none
@@ -159,10 +163,10 @@
 &trans &trans &trans &trans &trans
 
 /* Left Half - Thumb Cluster Last Row - 3 keys */
-&trans &trans &trans
+&trans &trans   &kp END
 
 /* Right Half - Thumb Cluster Last Row - 3 keys */
-&trans &trans &trans
+&kp PAGE_DOWN  &trans  &trans
 
 /* Right Half - Last Row - 5 keys */
 &trans &trans &trans  &trans  &trans
