@@ -24,11 +24,71 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                                       &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                                        &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT &none &none &kp LGUI  &kp RCTRL           &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B         &none    &none     &kp HOME &none &none &kp PG_UP &none     &none           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+/* Left Half - Numbers Row - 7 keys */
+&kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1
+
+/* Right Half - Numbers Row - 7 keys */
+&mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+
+/* Left Half - Q Row - 7 keys */
+&kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none
+
+/* Right Half - Y Row - 7 keys */
+&none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
+
+/* Left Half - A Row - 7 keys */
+&kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none
+
+/* Left Half - Thumb Cluster First Row - 2 keys */
+&kp LCTRL &kp LALT
+
+/* Left Half - blank (1 key) */
+&none
+
+/* Right Half - blank (1 key) */
+&none
+
+/* Right Half - Thumb Cluster First Row - 2 keys */
+&kp LGUI  &kp RCTRL
+
+/* Right Half - H Row - 7 keys */
+&none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+
+/* Left Half - Z Row - 6 keys */
+&kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B
+
+/* Left Half - Blanks - 2 keys */
+&none    &none
+
+/* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys */
+&kp HOME
+
+/* Left Half - Blanks - 1 keys */
+&none
+
+/* Right Half - Blanks - 1 keys */
+&none
+
+/* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys */
+&kp PG_UP
+
+/* Right Half - Blanks - 2 keys */
+&none     &none
+
+/* Right Half - N Row - 6 keys */
+&kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+
+/* Left Half - Last Row - 5 keys */
+&mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT
+
+/* Left Half - Thumb Cluster Last Row - 3 keys */
+&kp BSPC &kp DEL   &kp END
+
+/* Right Half - Thumb Cluster Last Row - 3 keys */
+&kp PG_DN &kp ENTER &kp SPACE
+
+/* Right Half - Last Row - 5 keys */
+&kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
@@ -42,11 +102,70 @@
     };
     fn {
       bindings = <
-        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                                       &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &trans &trans &trans &trans &trans  &none                                                       &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &none &none &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans        &none  &none  &trans &none &none &trans &none  &none        &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans               &trans &trans &trans             &trans &trans &trans              &trans &trans &trans  &trans  &trans
+/* Left Half - Numbers Row - 7 keys */
+&kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1
+
+/* Right Half - Numbers Row - 7 keys */
+&mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
+
+/* Left Half - Q Row - 7 keys */
+&trans &trans &trans &trans &trans &trans  &none
+
+/* Right Half - Y Row - 7 keys */
+&none &trans &trans &trans &trans  &trans  &trans
+
+/* Left Half - A Row - 7 keys */
+&trans &trans &trans &trans &trans &trans  &none
+
+/* Left Half - Thumb Cluster First Row - 2 keys */
+&trans &trans
+
+/* Left Half - blank (1 key) */
+&none
+
+/* Right Half - blank (1 key) */
+&none
+
+/* Right Half - Thumb Cluster First Row - 2 keys */
+&trans &trans
+
+/* Right Half - H Row - 7 keys */
+&none &trans &trans &trans &trans  &trans  &trans
+/* Left Half - Z Row - 6 keys */
+&trans &trans &trans &trans &trans &trans
+
+/* Left Half - Blanks - 2 keys */
+&none  &none
+
+/* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys */
+&trans
+
+/* Left Half - Blanks - 1 keys */
+&none
+
+/* Right Half - Blanks - 1 keys */
+&none
+
+/* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys */
+&trans
+
+/* Right Half - Blanks - 2 keys */
+&none  &none
+
+/* Right Half - N Row - 6 keys */
+&trans &trans &trans &trans  &trans  &trans
+
+/* Left Half - Last Row - 5 keys */
+&trans &trans &trans &trans &trans
+
+/* Left Half - Thumb Cluster Last Row - 3 keys */
+&trans &trans &trans
+
+/* Right Half - Thumb Cluster Last Row - 3 keys */
+&trans &trans &trans
+
+/* Right Half - Last Row - 5 keys */
+&trans &trans &trans  &trans  &trans
       >;
     };
     mod {
