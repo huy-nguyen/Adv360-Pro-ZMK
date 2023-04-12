@@ -30,7 +30,7 @@
 &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1
 
 /* Right Half - Numbers Row - 7 keys */
-&mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+&kp HYPER(SQT) &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
 
 /* Left Half - Q Row - 7 keys */
 &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T   &kp HYPER(LEFT_BRACKET)
@@ -81,7 +81,7 @@
 &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
 
 /* Left Half - Last Row - 5 keys */
-&mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT
+&mo 2     &kp GRAVE &mo 3 &kp LEFT &kp RIGHT
 
 /* Left Half - Thumb Cluster Last Row - 3 keys */
 &kp BACKSPACE  &kp DELETE  &kp HYPER(GRAVE)
