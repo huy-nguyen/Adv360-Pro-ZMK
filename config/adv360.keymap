@@ -10,22 +10,22 @@
     behaviors {
       #include "macros.dtsi"
 
-      lh_pht: left_hand_positional_hold_tap {
-          compatible = "zmk,behavior-hold-tap";
-          label = "LEFT_POSITIONAL_HOLD_TAP";
-          #binding-cells = <2>;
-          flavor = "tap-unless-interrupted";
-          tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]
-          quick-tap-ms = <200>;
-          bindings = <&kp>, <&kp>;
-          hold-trigger-key-positions = <
-          8 9 10 11 12 13
-          22 23 24 25 26 27
-          42 43 44 45 46 47
-          62 63 64 65 66
-          81 82
-          >;    // <---[[right-hand keys]]
-      };
+      // lh_pht: left_hand_positional_hold_tap {
+      //     compatible = "zmk,behavior-hold-tap";
+      //     label = "LEFT_POSITIONAL_HOLD_TAP";
+      //     #binding-cells = <2>;
+      //     flavor = "tap-unless-interrupted";
+      //     tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]
+      //     quick-tap-ms = <200>;
+      //     bindings = <&kp>, <&kp>;
+      //     hold-trigger-key-positions = <
+      //     8 9 10 11 12 13
+      //     22 23 24 25 26 27
+      //     42 43 44 45 46 47
+      //     62 63 64 65 66
+      //     81 82
+      //     >;    // <---[[right-hand keys]]
+      // };
 
 
         hm: homerow_mods {
