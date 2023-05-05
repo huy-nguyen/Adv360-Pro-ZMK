@@ -72,7 +72,7 @@
 &kp RIGHT_CONTROL  &kp RIGHT_META
 
 /* Right Half - H Row - 7 keys. Trigger positions 41 - 47. */
-&kp HYPER(MINUS)  &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+&kp HYPER(MINUS)  &kp H  &hm RSHIFT J  &kp K     &kp L    &kp SEMI &kp SQT
 
 /* Left Half - Z Row - 6 keys. Trigger positions 48 - 53. */
 &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B
