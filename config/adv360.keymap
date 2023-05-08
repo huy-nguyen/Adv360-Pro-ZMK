@@ -52,13 +52,13 @@
 &kp HYPER(SQT) &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
 
 /* Left Half - Q Row - 7 keys. Trigger positions 14 - 20. */
-&kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T   &kp HYPER(LEFT_BRACKET)
+&kp TAB   &kp Q     &kp W    &kp E    &hm LSHIFT R      &kp T   &kp HYPER(LEFT_BRACKET)
 
 /* Right Half - Y Row - 7 keys. Trigger positions 21 - 27. */
-&kp HYPER(EQUAL)  &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
+&kp HYPER(EQUAL)  &kp Y  &hm RSHIFT U  &kp I     &kp O    &kp P    &kp BSLH
 
 /* Left Half - A Row - 7 keys. Trigger positions 28 - 34. */
-&kp ESC   &kp A     &kp S    &kp D    &hm LSHIFT F      &kp G &kp HYPER(RIGHT_BRACKET)
+&kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G &kp HYPER(RIGHT_BRACKET)
 
 /* Left Half - Thumb Cluster First Row - 2 keys. Trigger positions 35 - 36. */
 &kp LEFT_META     &kp LEFT_CONTROL
@@ -73,7 +73,7 @@
 &kp RIGHT_CONTROL  &kp RIGHT_META
 
 /* Right Half - H Row - 7 keys. Trigger positions 41 - 47. */
-&kp HYPER(MINUS)  &kp H  &hm RSHIFT J  &kp K     &kp L    &kp SEMI &kp SQT
+&kp HYPER(MINUS)  &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
 
 /* Left Half - Z Row - 6 keys. Trigger positions 48 - 53. */
 &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B
