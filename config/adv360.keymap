@@ -76,7 +76,7 @@
 &kp HYPER(MINUS)  &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
 
 /* Left Half - Z Row - 6 keys. Trigger positions 48 - 53. */
-&kp LSHFT &kp Z     &kp X    &kp C    &hm LSHIFT V      &kp B
+&none &kp Z     &kp X    &kp C    &hm LSHIFT V      &kp B
 
 /* Left Half - Blanks - 2 keys. Trigger positions 54 - 55. */
 &none    &none
@@ -97,7 +97,7 @@
 &none     &none
 
 /* Right Half - N Row - 6 keys. Trigger positions 62 - 67. */
-&kp N  &kp M  &hm RSHIFT COMMA &kp DOT  &kp FSLH &kp RSHFT
+&kp N  &kp M  &hm RSHIFT COMMA &kp DOT  &kp FSLH &none
 
 /* Left Half - Last Row - 5 keys. Trigger positions 68 - 72. */
 &mo 2     &kp GRAVE &mo 3 &kp LEFT &kp RIGHT
