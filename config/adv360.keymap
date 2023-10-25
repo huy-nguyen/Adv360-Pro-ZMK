@@ -73,34 +73,34 @@
 /* Left Half - Thumb Cluster First Row - 2 keys. Trigger positions 35 - 36. */
 &kp LEFT_META     &kp LEFT_CONTROL
 
-/* Right Half - Thumb Cluster First Row - 2 keys. Trigger positsion 39 - 40. */
+/* Right Half - Thumb Cluster First Row - 2 keys. Trigger positsion 37 - 38. */
 &kp RIGHT_CONTROL  &kp RIGHT_META
 
-/* Right Half - H Row - 7 keys. Trigger positions 41 - 47. */
+/* Right Half - H Row - 7 keys. Trigger positions 39 - 45. */
 &kp HYPER(MINUS)  &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
 
-/* Left Half - Z Row - 6 keys. Trigger positions 48 - 53. */
+/* Left Half - Z Row - 6 keys. Trigger positions 46 - 51. */
 &mo 2 &kp Z     &kp X    &kp C    &hm LSHIFT V      &kp B
 
-/* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys. Trigger position 56. */
+/* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys. Trigger position 52. */
 &kp LEFT_ALT
 
-/* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys. Trigger position 59. */
+/* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys. Trigger position 53. */
 &kp RIGHT_ALT
 
-/* Right Half - N Row - 6 keys. Trigger positions 62 - 67. */
+/* Right Half - N Row - 6 keys. Trigger positions 54 - 59. */
 &kp N  &kp M  &hm RSHIFT COMMA &kp DOT  &kp FSLH &mo 2
 
-/* Left Half - Last Row - 5 keys. Trigger positions 68 - 72. */
+/* Left Half - Last Row - 5 keys. Trigger positions 60 - 64. */
 &kp LSHFT     &kp GRAVE &mo 3 &kp LEFT &kp RIGHT
 
-/* Left Half - Thumb Cluster Last Row - 3 keys. Trigger positions 73 - 75. */
+/* Left Half - Thumb Cluster Last Row - 3 keys. Trigger positions 65 - 67. */
 &kp BACKSPACE  &kp HYPER(COMMA)  &kp HYPER(GRAVE)
 
-/* Right Half - Thumb Cluster Last Row - 3 keys. Trigger positions 76 - 78. */
+/* Right Half - Thumb Cluster Last Row - 3 keys. Trigger positions 68 - 70. */
 &kp HYPER(BACKSLASH)  &kp ENTER  &kp SPACE
 
-/* Right Half - Last Row - 5 keys. Trigger positions 79 - 83 */
+/* Right Half - Last Row - 5 keys. Trigger positions 71 - 75 */
 &kp UP &kp DOWN  &kp LBKT &kp RBKT &none
       >;
     };
@@ -115,53 +115,52 @@
     };
     fn {
       bindings = <
-/* Left Half - Numbers Row - 7 keys */
+/* Left Half - Numbers Row - 7 keys. Trigger positions 0 - 6. */
 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1
 
-/* Right Half - Numbers Row - 7 keys */
+/* Right Half - Numbers Row - 7 keys. Trigger positions 7 - 13. */
 &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
 
-/* Left Half - Q Row - 7 keys */
+/* Left Half - Q Row - 7 keys. Trigger positions 14 - 20. */
  &trans  &trans &trans &kp HYPER(E) &kp HYPER(R)   &kp HYPER(T) &none
 
-
-/* Right Half - Y Row - 7 keys */
+/* Right Half - Y Row - 7 keys. Trigger positions 21 - 27. */
 &none  &kp HYPER(Y)  &trans  &trans   &trans   &trans   &trans
 
-/* Left Half - A Row - 7 keys */
+/* Left Half - A Row - 7 keys. Trigger positions 28 - 34. */
 &trans  &kp HYPER(A)  &kp HYPER(S)   &kp HYPER(D)   &kp HYPER(F)  &kp HYPER(G)         &none
 
-/* Left Half - Thumb Cluster First Row - 2 keys */
+/* Left Half - Thumb Cluster First Row - 2 keys. Trigger positions 35 - 36. */
 &trans &trans
 
-/* Right Half - Thumb Cluster First Row - 2 keys */
+/* Right Half - Thumb Cluster First Row - 2 keys. Trigger positsion 37 - 38. */
 &trans &trans
 
-/* Right Half - H Row - 7 keys */
+/* Right Half - H Row - 7 keys. Trigger positions 39 - 45. */
 &none  &kp HYPER(H)  &kp HYPER(J)  &kp HYPER(K)  &kp HYPER(L)  &trans  &trans
 
-/* Left Half - Z Row - 6 keys */
+/* Left Half - Z Row - 6 keys. Trigger positions 46 - 51. */
 &trans  &kp HYPER(Z)  &trans &kp HYPER(C) &trans &kp HYPER(B)
 
-/* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys */
+/* Left Half - Thumb Cluster Second Row Rightmost Key - 1 keys. Trigger position 52. */
 &kp HOME
 
-/* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys */
+/* Right Half - Thumb Cluster Second Row Leftmost Key- 1 keys. Trigger position 53. */
 &kp PAGE_UP
 
-/* Right Half - N Row - 6 keys */
+/* Right Half - N Row - 6 keys. Trigger positions 54 - 59. */
 &trans &trans &trans &trans  &trans  &trans
 
-/* Left Half - Last Row - 5 keys */
+/* Left Half - Last Row - 5 keys. Trigger positions 60 - 64. */
 &trans &trans &trans &trans &trans
 
-/* Left Half - Thumb Cluster Last Row - 3 keys */
+/* Left Half - Thumb Cluster Last Row - 3 keys. Trigger positions 65 - 67. */
 &kp DELETE &trans   &kp END
 
-/* Right Half - Thumb Cluster Last Row - 3 keys */
+/* Right Half - Thumb Cluster Last Row - 3 keys. Trigger positions 68 - 70. */
 &kp PAGE_DOWN  &trans  &trans
 
-/* Right Half - Last Row - 5 keys */
+/* Right Half - Last Row - 5 keys. Trigger positions 71 - 75 */
 &trans &trans &trans  &trans  &trans
       >;
     };
